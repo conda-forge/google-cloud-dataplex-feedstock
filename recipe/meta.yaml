@@ -1,5 +1,5 @@
 {% set name = "google-cloud-dataplex" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-dataplex-{{ version }}.tar.gz
-  sha256: f66429939dfcd07c576fa5535edaa1190dd86f9461d37b5a6d91909ad68c987d
+  sha256: d9e0aa7a48a64895d4264fd250d62f4290072150b07fb711f4d8cf5050e4bd83
 
 build:
   noarch: python
@@ -21,7 +21,8 @@ requirements:
   run:
     - python >=3.6
     - google-api-core-grpc >=1.31.5,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0
-    - proto-plus >=1.15.0
+    - proto-plus >=1.15.0,<2.0.0dev
+    - protobuf >=3.19.0,<4.0.0dev
 
 test:
   imports:
