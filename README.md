@@ -7,7 +7,7 @@ Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-dataplex-feedstock/blob/main/LICENSE.txt)
 
-Summary: Dataplex API client library
+Summary: Google Cloud Dataplex API client library
 
 Current build status
 ====================
