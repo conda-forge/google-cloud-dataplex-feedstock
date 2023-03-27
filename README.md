@@ -1,11 +1,11 @@
-About google-cloud-dataplex
-===========================
+About google-cloud-dataplex-feedstock
+=====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-dataplex-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/googleapis/python-dataplex
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-dataplex-feedstock/blob/main/LICENSE.txt)
 
 Summary: Google Cloud Dataplex API client library
 
