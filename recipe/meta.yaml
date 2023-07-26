@@ -1,5 +1,5 @@
 {% set name = "google-cloud-dataplex" %}
-{% set version = "1.5.1" %}
+{% set version = "1.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-dataplex-{{ version }}.tar.gz
-  sha256: 23929750487c2ba5854babd411d861bc91791d525b0ef95fe1da95284ac81b0d
+  sha256: 0b9f0ad7424836461b137cd70271907b04c5059ac8d0871aba5ae95a97655788
 
 build:
   noarch: python
