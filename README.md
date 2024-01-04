@@ -3,7 +3,7 @@ About google-cloud-dataplex-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-dataplex-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/googleapis/google-cloud-python
+Home: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-dataplex
 
 Package license: Apache-2.0
 
