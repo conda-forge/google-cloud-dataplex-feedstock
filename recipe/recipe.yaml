@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-dataplex
-  version: "2.21.0"
+  version: "2.22.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_dataplex-${{ version }}.tar.gz
-  sha256: 24ded3ff4afaec9a944bf0e3edc64955f0697797f263f4f715b3ab4dfde23aca
+  sha256: 8104665f50eef4a60ab91d44d65be1c695e5d66eb3e183191fbd3113f26dafd1
 
 build:
   number: 0
